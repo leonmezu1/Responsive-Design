@@ -163,3 +163,118 @@ input, select {
 }
 
 /* -----------------------End of CSS RESET---------------------- */
+
+*,
+*::after,
+*::before {
+  -ms-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  letter-spacing: -0.08rem;
+}
+
+body {
+  position: relative;
+  font-family: "Work Sans", "Arial", sans-serif;
+}
+
+.top-nav {
+  position: fixed;
+  top: 0;
+  display: flex;
+  flex-wrap: wrap;
+  height: 11rem;
+  width: 100%;
+}
+
+.left-logo {
+  display: flex;
+  width: 10.6rem;
+  height: calc(100% - 3rem); /* 100% - yellow-bar height */
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(to bottom right,#c09,#f42 85%);
+}
+
+.logo-svg {
+  height: 1.6rem;
+}
+
+.right-header {
+  display: flex;
+  flex: 1;
+}
+
+.block-link {
+  display: inline-block;
+  text-decoration: none;
+  padding-right: 1rem;
+}
+
+.right-header .block-link {
+  color: #a6a6a6;
+  font-size: 1.34rem;
+}
+
+.left-bar .block-link:first-child,
+.right-header .block-link:hover {
+  color: #fff;
+}
+
+.first-bar {
+  display: flex;
+  justify-content: space-between;
+  background-color: #000;
+  height: 3.2rem;
+  line-height: 3.2rem;
+  width: 100%;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+main {
+  position: relative;
+  top: 11.1rem;
+  background-color: blue;
+  height: 200px;
+  width: 105px;
+}
+
+/* ----------------MEDIA: complete horizonal screen width: <770px;------------- */
+
+@media screen and (max-width: 769px){
+
+  .top-nav {
+    height: 8rem;
+  }
+
+  .first-bar {
+    display: none;
+  }
+
+  main {
+    top: 8.1rem;
+  }
+}
+
+/* ------------------MEDIA: medium screen (tablets) width: 770-1020px;------------- */
+
+@media screen and (min-width: 770px) and (max-width: 1019px){
+  .right-bar {
+    display: none;
+  }
+}
+/* ---------------------MEDIA: cellphone screen  width: >1020px;----------------- */
+
+@media screen and (min-width: 1020px){
+
+  .left-logo {
+    display: none;
+  }
+
+}
