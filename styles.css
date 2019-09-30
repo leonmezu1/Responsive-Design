@@ -164,6 +164,14 @@ input, select {
 
 /* -----------------------End of CSS RESET---------------------- */
 
+/* General tools*/
+
+.box {
+  display: block;
+}
+
+/* End of general tools */
+
 *,
 *::after,
 *::before {
@@ -184,11 +192,10 @@ body {
 }
 
 .top-nav {
-  position: fixed;
   top: 0;
   display: flex;
   flex-wrap: wrap;
-  height: 11rem;
+  height: 3.2rem;
   width: 100%;
 }
 
@@ -207,6 +214,7 @@ body {
 
 .right-header {
   display: flex;
+  height: auto;
   flex: 1;
 }
 
@@ -237,12 +245,63 @@ body {
   padding-right: 2rem;
 }
 
+nav {
+  position: sticky;
+  width: 100%;
+  top: 0;
+}
+
+.main-nav {
+  font-size: 1.4rem;
+}
+
+.main-nav ul {
+  list-style-type: none;
+  height: 4.8rem;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.main-nav li {
+  float: left;
+}
+
+.main-nav li a {
+  display: block;
+  background-color: white;
+  color: #aaa;
+  font-family: Shentox,sans-serif;
+  font-weight: 500;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  height: 4.8rem;
+  letter-spacing: 0.04em;
+  line-height: 1;
+  padding: 1.8rem 1rem 0;
+  
+}
+
+.main-nav a:hover {
+  color: #111111;
+}
+
+.announces-nav {
+  font-family: 'Nunito Sans', sans-serif;
+  font-size: 1.4rem;
+  padding-left: 1.2rem;
+  box-shadow: 0 1.6rem 4.8rem rgba(0,0,0,.15);
+  line-height: 3rem;
+  background: #fd3;
+  color: #000;
+}
+
 main {
-  position: relative;
   top: 11.1rem;
   background-color: blue;
-  height: 200px;
-  width: 105px;
+  height: 550rem;
+  width: 100%;
 }
 
 /* ----------------MEDIA: complete horizonal screen width: <770px;------------- */
@@ -273,8 +332,58 @@ main {
 
 @media screen and (min-width: 1020px){
 
-  .left-logo {
+  /*.left-logo {
     display: none;
+  }*/
+  
+  .latest-news {
+    margin: 0 auto;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 1.5rem;
+    width: 80%;
+    align-items: center;
+    justify-content: space-around;
+    display: flex;
+    flex-flow: row wrap;
+    -ms-flex-flow: row wrap;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
   }
 
+  .news-block {
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+    min-width: 23rem;
+    max-width: 27rem;
+    flex-basis: 25%;
+    font-family: 'Work Sans', "Arial", sans-serif;
+  }
+  
+  .news-block a {
+    text-decoration: none;
+    color: #000;
+  }
+  
+  .news-block h4 {
+    font-size: 1.6rem;
+    margin-bottom: 1rem;
+  }
+  
+  .news-block ul {
+    list-style: none;
+  
+  }
+  
+  .news-block li{
+    float: left;
+    padding-right: 1rem;
+    color: #aaa;
+  }
+  
+  .story-image {
+    background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/09/bitcoin-binance-516x270.jpg);
+    height: 13.5rem;
+    margin-bottom: 1rem;
+  }
 }
