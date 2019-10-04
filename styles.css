@@ -479,60 +479,76 @@ body {
   -webkit-box-direction: normal;
 }
 
-.news-block {
-  font-size: 1.4rem;
-  display: flex;
-  flex-direction: column;
-  min-width: 23rem;
-  flex-basis: 25%;
-  max-width: 25%;
-  padding: 1.2rem;
-}
-
-.news-block a {
-  text-decoration: none;
-  color: #000;
-}
-
-.news-block h4 {
-  font-size: 1.6rem;
-  margin-bottom: 1rem;
-  letter-spacing: 0;
-}
-
-.news-block .news-title a:hover {
-  color: #f42;
-}
-
-.news-block ul {
-  list-style: none;
-}
-
-.news-block .story-byline a {
-  font-family: 'Nunito Sans', sans-serif;
-  color: #aaa;
-}
-
-.news-block .story-byline a:hover {
-  color: #555;
-}
-
-.news-block li{
-  float: left;
-  padding-right: 1rem;
-  color: #aaa;
-}
-
-.story-image {
-  background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/09/bitcoin-binance-516x270.jpg);
-  height: 13.5rem;
-  margin-bottom: 1rem;
-  width: 100%;
-}
 
 /* ----------------MEDIA: mobile screen width: <768px;-------------------- */
 
 @media screen and (max-width: 767px){
+
+  .container {
+    margin: -12px;
+  }
+
+  .news-block {
+    font-size: 1.4rem;
+    display: inline-flex;
+    padding: 1.2rem;
+  }
+
+  .block-text {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .news-block h4 {
+    font-size: 1.4rem;
+    margin-bottom: 1rem;
+    letter-spacing: 0;
+    font-weight: 600;
+  }
+
+  
+  
+  .news-block a {
+    text-decoration: none;
+    color: #000;
+  }
+  
+  .news-block h4 {
+    font-size: 1.6rem;
+    margin-bottom: 1rem;
+    letter-spacing: 0;
+  }
+  
+  .news-block .news-title a:hover {
+    color: #f42;
+  }
+  
+  .news-block ul {
+    list-style: none;
+  }
+  
+  .news-block .story-byline a {
+    font-family: 'Nunito Sans', sans-serif;
+    color: #aaa;
+  }
+  
+  .news-block .story-byline a:hover {
+    color: #555;
+  }
+  
+  .news-block li{
+    float: left;
+    padding-right: 1rem;
+    color: #aaa;
+  }
+  
+  .story-image {
+    background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/09/bitcoin-binance-516x270.jpg);
+    height: 7.5rem;
+    width: 7.5rem;
+    margin-right: 0.8rem;
+    background-size: cover;
+  }
   
 }
 
@@ -540,25 +556,132 @@ body {
 
 @media screen and (min-width: 768px) and (max-width: 1023px){
 
+  .container {
+    margin: -12px;
+  }
+  
+  .news-block h4 {
+    font-size: 1.4rem;
+    margin-bottom: 1rem;
+    letter-spacing: 0;
+    font-weight: 600;
+  }
+
   .news-block {
+    font-size: 1.4rem;
+    display: flex;
+    flex-direction: column;
+    min-width: 23rem;
     flex-basis: 33.333%;
     max-width: 33.333%;
     padding: 1rem;
   }
-
-  .container {
-    margin: -12px;
+  
+  .news-block a {
+    text-decoration: none;
+    color: #000;
+  }
+  
+  .news-block h4 {
+    font-size: 1.6rem;
+    margin-bottom: 1rem;
+    letter-spacing: 0;
+  }
+  
+  .news-block .news-title a:hover {
+    color: #f42;
+  }
+  
+  .news-block ul {
+    list-style: none;
+  }
+  
+  .news-block .story-byline a {
+    font-family: 'Nunito Sans', sans-serif;
+    color: #aaa;
+  }
+  
+  .news-block .story-byline a:hover {
+    color: #555;
+  }
+  
+  .news-block li{
+    float: left;
+    padding-right: 1rem;
+    color: #aaa;
+  }
+  
+  .story-image {
+    background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/09/bitcoin-binance-516x270.jpg);
+    height: 13.5rem;
+    margin-bottom: 1rem;
+    width: 100%;
   }
 }
   
-}
-
 /* ------------------MEDIA: desktop or laptop width: >1024px;-------------- */
 
 @media screen and (min-width: 1024px){
-
   .container {
     margin: -12px;
+  }
+
+  .news-block h4 {
+    font-size: 1.4rem;
+    margin-bottom: 1rem;
+    letter-spacing: 0;
+    font-weight: 600;
+  }
+
+  .news-block {
+    font-size: 1.4rem;
+    display: flex;
+    flex-direction: column;
+    min-width: 23rem;
+    flex-basis: 25%;
+    max-width: 25%;
+    padding: 1.2rem;
+  }
+  
+  .news-block a {
+    text-decoration: none;
+    color: #000;
+  }
+  
+  .news-block h4 {
+    font-size: 1.6rem;
+    margin-bottom: 1rem;
+    letter-spacing: 0;
+  }
+  
+  .news-block .news-title a:hover {
+    color: #f42;
+  }
+  
+  .news-block ul {
+    list-style: none;
+  }
+  
+  .news-block .story-byline a {
+    font-family: 'Nunito Sans', sans-serif;
+    color: #aaa;
+  }
+  
+  .news-block .story-byline a:hover {
+    color: #555;
+  }
+  
+  .news-block li{
+    float: left;
+    padding-right: 1rem;
+    color: #aaa;
+  }
+  
+  .story-image {
+    background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/09/bitcoin-binance-516x270.jpg);
+    height: 13.5rem;
+    margin-bottom: 1rem;
+    width: 100%;
   }
 }
 
