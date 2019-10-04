@@ -1,5 +1,5 @@
 
-/* -----------------------------CSS RESET---------------------- */
+/* -----------------------------CSS RESET------------------------- */
 
 html,
 body,
@@ -189,6 +189,12 @@ body {
   font-family: "Work Sans", "Arial", sans-serif;
 }
 
+/*
+============================================================================
+                              NAV BAR section
+============================================================================
+ */
+
 .top-nav {
   position: fixed;
   top: 0;
@@ -244,14 +250,9 @@ body {
   padding-right: 2rem;
 }
 
-nav {
- /*position: sticky;*/
- min-width: 50%;
- /*top: 0;*/
-}
-
 .main-nav {
   font-size: 1.4rem;
+  background-color: #fff;
 }
 
 .main-nav ul {
@@ -314,10 +315,13 @@ nav {
  background: #fd3;
  color: #000;
  width: 100%;
+ height: 2.96rem;
+ white-space: nowrap;
+ overflow: hidden;
+ text-overflow: ellipsis;
 }
 
-
-/* ----------------MEDIA: mobile screen width: <767px;------------- */
+/* -----------------------MEDIA: mobile screen width: <768px;------------- */
 
 @media screen and (max-width: 767px){
 
@@ -337,12 +341,9 @@ nav {
     display: block;
   }
 
-  main {
-    top: 8.1rem;
-  }
 }
 
-/* ------------------MEDIA: medium screen (tablets) width: 770-1020px;------------- */
+/* --------MEDIA: medium screen (tablets) width: 768-1024px;------------- */
 
 @media screen and (min-width: 768px) and (max-width: 1023px){
   .right-bar {
@@ -350,7 +351,7 @@ nav {
   }
 
 }
-/* ---------------------MEDIA: desktop or laptop width: >1024px;----------------- */
+/* --------------MEDIA: desktop or laptop width: >1024px;----------------- */
 
 @media screen and (min-width: 1024px){
 
@@ -361,9 +362,119 @@ nav {
 
 /* ---------------------END OF NAV----------------- */
 
-main {
-  margin-top: 0.1rem;
-  background-color: blue;
-  height: 2000px;
-  width: 105px;
+/*
+============================================================================
+                              HERO section
+============================================================================
+ */
+
+.main-grid {
+  margin-top: 11.3rem;
+  margin-left: 0.8rem;
+  margin-right: 0.8rem;
+  display: flex;
+  flex: wrap;
+  margin-left: 0.8rem;
+  width: auto;
 }
+
+.big-article {
+  flex: 1 1 70%;
+  height: 54rem;
+  flex-basis: 50%;
+  margin-bottom: 0.8rem;
+  border: red 3px solid;
+}
+
+.side {
+  flex: 1 1 18%;
+  margin-left: 0.8rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.side-article {
+  flex-basis: 50%;
+  height: 10rem;
+  margin-bottom: 0.8rem;
+  border: red 3px solid;
+}
+
+/* ----------------MEDIA: mobile screen width: <768px;-------------------- */
+
+@media screen and (max-width: 767px){
+  .main-grid {
+    margin-top: 8.2rem;
+    flex-direction: column;
+  }
+
+  .big-article {
+    flex: 1 1 28rem;
+    width: 100%;
+  }
+
+  .side-article {
+    width: 100%;
+    flex: 2 1 28rem;
+    height: 28rem;
+  }
+
+  .side {
+    margin-left: 0;
+  }
+}
+/* --------------MEDIA: medium screen (tablets) width: 768-1024px;--------- */
+
+@media screen and (min-width: 768px) and (max-width: 1023px){
+  .big-article {
+    height: 46rem;
+  }
+
+}
+/* ------------------MEDIA: desktop or laptop width: >1024px;-------------- */
+
+@media screen and (min-width: 1024px){
+
+
+}
+
+
+
+/*
+.news-block {
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+    min-width: 23rem;
+    max-width: 27rem;
+    flex-basis: 25%;
+    font-family: 'Work Sans', "Arial", sans-serif;
+  }
+
+  .news-block a {
+    text-decoration: none;
+    color: #000;
+  }
+
+  .news-block h4 {
+    font-size: 1.6rem;
+    margin-bottom: 1rem;
+  }
+
+  .news-block ul {
+    list-style: none;
+
+  }
+
+  .news-block li{
+    float: left;
+    padding-right: 1rem;
+    color: #aaa;
+  }
+*/
+
+/*
+============================================================================
+                              Latest News section
+============================================================================
+ */
