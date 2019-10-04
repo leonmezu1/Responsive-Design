@@ -170,6 +170,11 @@ input, select {
   display: block;
 }
 
+.wrapped {
+  max-width: 1192px;
+  padding: 0 2rem;
+}
+
 *,
 *::after,
 *::before {
@@ -438,43 +443,122 @@ body {
 
 }
 
-
-
-/*
-.news-block {
-    margin: 1rem;
-    display: flex;
-    flex-direction: column;
-    min-width: 23rem;
-    max-width: 27rem;
-    flex-basis: 25%;
-    font-family: 'Work Sans', "Arial", sans-serif;
-  }
-
-  .news-block a {
-    text-decoration: none;
-    color: #000;
-  }
-
-  .news-block h4 {
-    font-size: 1.6rem;
-    margin-bottom: 1rem;
-  }
-
-  .news-block ul {
-    list-style: none;
-
-  }
-
-  .news-block li{
-    float: left;
-    padding-right: 1rem;
-    color: #aaa;
-  }
-*/
-
 /*
 ============================================================================
                               Latest News section
 ============================================================================
  */
+
+.latest-news {
+  margin:  8.5rem auto;
+  font-family: 'Nunito Sans', sans-serif;
+  font-family: 'Work Sans', "Arial", sans-serif;
+  font-size: 1.5rem;
+}
+
+.block-title h1{
+  color: #f42;
+  font-size: 2.8rem;
+  font-weight: 700;
+  margin-bottom: 2.5rem;
+}
+
+.block-title h1:hover {
+  color: #000;
+}
+
+.container {
+  margin: 0 0;
+  padding: 0 0;
+  line-height: 1.2;
+  align-items: center;
+  display: flex;
+  flex-flow: row wrap;
+  -ms-flex-flow: row wrap;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+}
+
+.news-block {
+  font-size: 1.4rem;
+  display: flex;
+  flex-direction: column;
+  min-width: 23rem;
+  flex-basis: 25%;
+  max-width: 25%;
+  padding: 1.2rem;
+}
+
+.news-block a {
+  text-decoration: none;
+  color: #000;
+}
+
+.news-block h4 {
+  font-size: 1.6rem;
+  margin-bottom: 1rem;
+  letter-spacing: 0;
+}
+
+.news-block .news-title a:hover {
+  color: #f42;
+}
+
+.news-block ul {
+  list-style: none;
+}
+
+.news-block .story-byline a {
+  font-family: 'Nunito Sans', sans-serif;
+  color: #aaa;
+}
+
+.news-block .story-byline a:hover {
+  color: #555;
+}
+
+.news-block li{
+  float: left;
+  padding-right: 1rem;
+  color: #aaa;
+}
+
+.story-image {
+  background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/09/bitcoin-binance-516x270.jpg);
+  height: 13.5rem;
+  margin-bottom: 1rem;
+  width: 100%;
+}
+
+/* ----------------MEDIA: mobile screen width: <768px;-------------------- */
+
+@media screen and (max-width: 767px){
+  
+}
+
+/* --------------MEDIA: medium screen (tablets) width: 768-1024px;--------- */
+
+@media screen and (min-width: 768px) and (max-width: 1023px){
+
+  .news-block {
+    flex-basis: 33.333%;
+    max-width: 33.333%;
+    padding: 1rem;
+  }
+
+  .container {
+    margin: -12px;
+  }
+}
+  
+}
+
+/* ------------------MEDIA: desktop or laptop width: >1024px;-------------- */
+
+@media screen and (min-width: 1024px){
+
+  .container {
+    margin: -12px;
+  }
+}
+
