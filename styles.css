@@ -384,15 +384,66 @@ body {
 }
 
 .big-article {
-  flex: 1 1 70%;
-  height: 54rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  flex: 1 1 76%;
+  height: 54.3rem;
   flex-basis: 50%;
   margin-bottom: 0.8rem;
-  border: red 3px solid;
+  background: linear-gradient(165deg, rgba(0,0,0,0.4)0 40%, rgba(0,0,0,0.85)80% 100%), url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/10/Apple-TV-back-to-the-future-header-image-796x417.png") no-repeat center;
+  background-size: cover;
+  color: white;
+}
+
+.big-article:hover {
+  background: linear-gradient(165deg, rgba(0,0,0,0.3)0 40%, rgba(0,0,0,0.85)83% 100%), url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/10/Apple-TV-back-to-the-future-header-image-796x417.png") no-repeat center;
+  background-size: cover;
+}
+
+.top-logo-section {
+  display: none;
+}
+
+.title-section {
+  margin: 1.7rem;
+  margin-bottom: 2.1rem;
+}
+
+.title-section a:first-child {
+  font-family: 'Nunito Sans', sans-serif;
+  font-size: 1.3rem;
+  letter-spacing: 0.02rem;
+}
+
+.title-section a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.art-title {
+  font-size: 5.2rem;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+.art-details {
+  margin-top: 1.2rem;
+  font-size: 1.2rem;
+  color: rgba(255, 255, 255, 0.65);
+  letter-spacing: 0.01rem;
+}
+
+.art-details a {
+  color: inherit;
+}
+
+.art-details a:hover {
+  color: #fff;
 }
 
 .side {
-  flex: 1 1 18%;
+  flex: 1 1 16.5%;
   margin-left: 0.8rem;
   display: flex;
   flex-direction: column;
@@ -414,13 +465,27 @@ body {
   }
 
   .big-article {
-    flex: 1 1 28rem;
+    flex: 1 1 24.5rem;
     width: 100%;
+  }
+
+  .art-title {
+    font-size: 2rem;
+    line-height: 1.1;
+  }
+
+  .title-section {
+    margin: 1.2rem;
+    margin-bottom: 1.8rem;
+  }
+
+  .art-details {
+    margin-top: 0.6rem;
   }
 
   .side-article {
     width: 100%;
-    flex: 2 1 28rem;
+    flex: 2 1 24.5rem;
     height: 28rem;
   }
 
@@ -432,15 +497,56 @@ body {
 
 @media screen and (min-width: 768px) and (max-width: 1023px){
   .big-article {
-    height: 46rem;
+    height: 49.4rem;
   }
 
+  .title-section {
+    margin: 1.3rem;
+    margin-bottom: 1.9rem;
+  }
+
+  .art-title {
+    font-size: 3.7rem;
+    line-height: 1.1;
+  }
+
+  .art-details {
+    margin-top: 1rem;
+  }
 }
 /* ------------------MEDIA: desktop or laptop width: >1024px;-------------- */
 
 @media screen and (min-width: 1024px){
+  .big-article {
+    justify-content: space-between;
+    background: linear-gradient(165deg, rgba(255,68,34,0.87) 0% 28%,rgba(255,68,34,0.4) 40% 41%, rgba(0,0,0,0.9) 72% 100%), url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/10/Apple-TV-back-to-the-future-header-image-796x417.png") no-repeat center;
+    background-size: cover;
+  }
 
+  .big-article:hover {
+    background: linear-gradient(165deg, rgba(255,68,34,0.87) 0% 28%,rgba(255,68,34,0.32) 40% 41%, rgba(0,0,0,0.9) 72% 100%), url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/10/Apple-TV-back-to-the-future-header-image-796x417.png") no-repeat center;
+    background-size: cover;
+  }
 
+  .top-logo-section {
+    display: flex;
+    justify-content: space-between;
+    margin: 1.9rem;
+    font-size: 1.5rem;
+    font-weight: 400;
+  }
+
+  .logo .date p {
+      text-align: right;
+  }
+
+  .logo {
+    width: 53%;
+  }
+
+  .logo img{
+    width: 100%;
+  }
 }
 
 /*
@@ -506,42 +612,42 @@ body {
     font-weight: 600;
   }
 
-  
-  
+
+
   .news-block a {
     text-decoration: none;
     color: #000;
   }
-  
+
   .news-block h4 {
     font-size: 1.6rem;
     margin-bottom: 1rem;
     letter-spacing: 0;
   }
-  
+
   .news-block .news-title a:hover {
     color: #f42;
   }
-  
+
   .news-block ul {
     list-style: none;
   }
-  
+
   .news-block .story-byline a {
     font-family: 'Nunito Sans', sans-serif;
     color: #aaa;
   }
-  
+
   .news-block .story-byline a:hover {
     color: #555;
   }
-  
+
   .news-block li{
     float: left;
     padding-right: 1rem;
     color: #aaa;
   }
-  
+
   .story-image {
     background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/09/bitcoin-binance-516x270.jpg);
     height: 7.5rem;
@@ -549,7 +655,7 @@ body {
     margin-right: 0.8rem;
     background-size: cover;
   }
-  
+
 }
 
 /* --------------MEDIA: medium screen (tablets) width: 768-1024px;--------- */
@@ -559,7 +665,7 @@ body {
   .container {
     margin: -12px;
   }
-  
+
   .news-block h4 {
     font-size: 1.4rem;
     margin-bottom: 1rem;
@@ -576,41 +682,41 @@ body {
     max-width: 33.333%;
     padding: 1rem;
   }
-  
+
   .news-block a {
     text-decoration: none;
     color: #000;
   }
-  
+
   .news-block h4 {
     font-size: 1.6rem;
     margin-bottom: 1rem;
     letter-spacing: 0;
   }
-  
+
   .news-block .news-title a:hover {
     color: #f42;
   }
-  
+
   .news-block ul {
     list-style: none;
   }
-  
+
   .news-block .story-byline a {
     font-family: 'Nunito Sans', sans-serif;
     color: #aaa;
   }
-  
+
   .news-block .story-byline a:hover {
     color: #555;
   }
-  
+
   .news-block li{
     float: left;
     padding-right: 1rem;
     color: #aaa;
   }
-  
+
   .story-image {
     background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/09/bitcoin-binance-516x270.jpg);
     height: 13.5rem;
@@ -618,7 +724,7 @@ body {
     width: 100%;
   }
 }
-  
+
 /* ------------------MEDIA: desktop or laptop width: >1024px;-------------- */
 
 @media screen and (min-width: 1024px){
@@ -642,41 +748,41 @@ body {
     max-width: 25%;
     padding: 1.2rem;
   }
-  
+
   .news-block a {
     text-decoration: none;
     color: #000;
   }
-  
+
   .news-block h4 {
     font-size: 1.6rem;
     margin-bottom: 1rem;
     letter-spacing: 0;
   }
-  
+
   .news-block .news-title a:hover {
     color: #f42;
   }
-  
+
   .news-block ul {
     list-style: none;
   }
-  
+
   .news-block .story-byline a {
     font-family: 'Nunito Sans', sans-serif;
     color: #aaa;
   }
-  
+
   .news-block .story-byline a:hover {
     color: #555;
   }
-  
+
   .news-block li{
     float: left;
     padding-right: 1rem;
     color: #aaa;
   }
-  
+
   .story-image {
     background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/09/bitcoin-binance-516x270.jpg);
     height: 13.5rem;
@@ -684,4 +790,3 @@ body {
     width: 100%;
   }
 }
-
