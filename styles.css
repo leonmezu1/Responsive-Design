@@ -171,6 +171,7 @@ input, select {
 }
 
 .wrapped {
+  margin:  8.5rem auto;
   max-width: 1192px;
   padding: 0 2rem;
 }
@@ -556,7 +557,6 @@ body {
  */
 
 .latest-news {
-  margin:  8.5rem auto;
   font-family: 'Nunito Sans', sans-serif;
   font-family: 'Work Sans', "Arial", sans-serif;
   font-size: 1.5rem;
@@ -650,8 +650,8 @@ body {
 
   .story-image {
     background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/09/bitcoin-binance-516x270.jpg);
-    height: 7.5rem;
-    width: 7.5rem;
+    min-height: 7.5rem;
+    min-width: 7.5rem;
     margin-right: 0.8rem;
     background-size: cover;
   }
