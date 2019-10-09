@@ -454,7 +454,33 @@ body {
   flex-basis: 50%;
   height: 10rem;
   margin-bottom: 0.8rem;
-  border: red 3px solid;
+  display: flex;
+  align-items: flex-end;
+}
+
+.side .art-title {
+  font-size: 3rem;
+  line-height: 3.1rem;
+}
+
+.first {
+  background: linear-gradient(165deg, rgba(0,0,0,0.4)0 40%, rgba(0,0,0,0.85)80% 100%), url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/10/200-calories-10-796x417.png") no-repeat center;
+  background-size: cover;
+}
+
+.first:hover {
+  background: linear-gradient(165deg, rgba(0,0,0,0.3)0 40%, rgba(0,0,0,0.85)83% 100%), url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/10/200-calories-10-796x417.png") no-repeat center;
+  background-size: cover;
+}
+
+.second {
+  background: linear-gradient(165deg, rgba(0,0,0,0.4)0 40%, rgba(0,0,0,0.85)80% 100%), url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/10/syndication_bb-796x417.jpg") no-repeat center;
+  background-size: cover;
+}
+
+.second:hover {
+  background: linear-gradient(165deg, rgba(0,0,0,0.3)0 40%, rgba(0,0,0,0.85)83% 100%), url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/10/syndication_bb-796x417.jpg") no-repeat center;
+  background-size: cover;
 }
 
 /* ----------------MEDIA: mobile screen width: <768px;-------------------- */
@@ -513,6 +539,15 @@ body {
 
   .art-details {
     margin-top: 1rem;
+  }
+
+  .side .art-title {
+    font-size: 2rem;
+    line-height: 2.2rem;
+  }
+
+  .side .art-details {
+    margin-top: 0.7rem;
   }
 }
 /* ------------------MEDIA: desktop or laptop width: >1024px;-------------- */
