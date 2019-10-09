@@ -339,6 +339,10 @@ body {
     display: none;
   }
 
+  .main-nav {
+    height: 5rem;
+  }
+
   .main-nav li a {
     display: none;
   }
@@ -519,6 +523,11 @@ body {
   .side {
     margin-left: 0;
   }
+
+  .side .art-title {
+    font-size: 2rem;
+    line-height: 1.1;
+  }
 }
 /* --------------MEDIA: medium screen (tablets) width: 768-1024px;--------- */
 
@@ -597,17 +606,6 @@ body {
   font-size: 1.5rem;
 }
 
-.block-title h1{
-  color: #f42;
-  font-size: 2.8rem;
-  font-weight: 700;
-  margin-bottom: 2.5rem;
-}
-
-.block-title h1:hover {
-  color: #000;
-}
-
 .container {
   margin: 0 0;
   padding: 0 0;
@@ -619,6 +617,64 @@ body {
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
 }
+
+.story-image {
+  background-size: cover;
+}
+
+.block-title h1{
+  color: #f42;
+  font-size: 2.8rem;
+  font-weight: 700;
+  margin-bottom: 2.5rem;
+}
+
+.block-title h1:hover {
+  color: #000;
+}
+
+.imgback1 {
+  background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/10/iPhone-11.00_07_21_14.Still008-480x270.png);
+  background-repeat: no-repeat;
+  background-position: center; 
+}
+.imgback2 {
+  background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/10/Untitled-design117-516x270.png);
+  background-repeat: no-repeat;
+  background-position: center; 
+}
+.imgback3 {
+  background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/10/stalker-relection-eye-japan-516x270.jpg);
+  background-repeat: no-repeat;
+  background-position: center; 
+}
+.imgback4 {
+  background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/10/sonydeal-516x270.png);
+  background-repeat: no-repeat;
+  background-position: center; 
+}
+.imgback5 {
+  background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/10/bank-of-england-facebook-blockchain-cryptocurrency-libra-rules-engagement-405x270.jpg);
+  background-repeat: no-repeat;
+  background-position: center; 
+}
+.imgback6 {
+  background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/04/sextortion-blockchain-cryptocurrency-bitcoin-masturbation-video-hack-480x270.jpg);
+  background-repeat: no-repeat;
+  background-position: center; 
+}
+.imgback7 {
+  background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/10/sale_22049_primary_image_wide-540x270.jpg);
+  background-repeat: no-repeat;
+  background-position: center; 
+}
+.imgback8 {
+  background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/10/200-calories-9-516x270.png);
+  background-repeat: no-repeat;
+  background-position: center; 
+}
+
+
 
 
 /* ----------------MEDIA: mobile screen width: <768px;-------------------- */
@@ -647,8 +703,6 @@ body {
     font-weight: 600;
   }
 
-
-
   .news-block a {
     text-decoration: none;
     color: #000;
@@ -684,11 +738,10 @@ body {
   }
 
   .story-image {
-    background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/09/bitcoin-binance-516x270.jpg);
+    background-size: cover;
     min-height: 7.5rem;
     min-width: 7.5rem;
     margin-right: 0.8rem;
-    background-size: cover;
   }
 
 }
@@ -716,6 +769,7 @@ body {
     flex-basis: 33.333%;
     max-width: 33.333%;
     padding: 1rem;
+    height: 27.06rem;
   }
 
   .news-block a {
@@ -753,7 +807,6 @@ body {
   }
 
   .story-image {
-    background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/09/bitcoin-binance-516x270.jpg);
     height: 13.5rem;
     margin-bottom: 1rem;
     width: 100%;
@@ -763,6 +816,10 @@ body {
 /* ------------------MEDIA: desktop or laptop width: >1024px;-------------- */
 
 @media screen and (min-width: 1024px){
+
+  .special-events {
+    padding-top: 3rem;
+  }
   .container {
     margin: -12px;
   }
@@ -782,6 +839,7 @@ body {
     flex-basis: 25%;
     max-width: 25%;
     padding: 1.2rem;
+    height: 25.54rem;
   }
 
   .news-block a {
@@ -819,9 +877,321 @@ body {
   }
 
   .story-image {
-    background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/09/bitcoin-binance-516x270.jpg);
     height: 13.5rem;
     margin-bottom: 1rem;
     width: 100%;
   }
+}
+
+/*
+============================================================================
+                              Special Events section
+============================================================================
+ */
+
+ .imgbackspc1 {
+  background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/10/597d12de5f1604078c51be9c3b365e60.jpg);
+}
+.imgbackspc2 {
+  background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/10/EF4hwt-W4AILDL9-480x270.jpeg);
+}
+.imgbackspc3 {
+  background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/10/Windows-10X-517x270.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.imgbackspc4 {
+  background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/10/MicrosoftSurfaceProx-512x270.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+/*
+============================================================================
+                              Latest deals section
+============================================================================
+ */
+
+.imgbacklat1 {
+
+  background-image: url(https://cdnp1.stackassets.com/4c6357549bbe196eac7a2a550f3cf2a380f39e44/store/7d5851d962ea8a62a7e9939f0efebc686b69d83821b63060d3109048021b/sale_19399_primary_image.jpg);
+}
+
+.imgbacklat2 {
+  background-image: url(https://cdnp3.stackassets.com/bed8a337b83198aecc1eaa97708a1b437deda193/store/3401bc6dc8fdbd03d86935b56cd418289be7709784a3817f7fdbaa862678/sale_22157_primary_image.jpg);
+}
+
+.imgbacklat3 {
+  background-image: url(https://cdnp3.stackassets.com/80ea22e2919f5826b2765ad58a70ffdb0b1e217a/store/de89b6bc5feee838ebfcc0ae7ccc32f5e1556f453b6f538292a1e60842a4/sale_22062_primary_image.jpg);
+}
+
+.imgbacklat4 {
+  background-image: url(https://cdnp2.stackassets.com/2de045f5c08675c61ee700230f0604fdd2e3e557/store/385003e89ed9c8e0938a35490994921cbd3a1c1ecde92e3f84376549f152/sale_18127_primary_image.jpg);
+}
+
+.imgbacklat5 {
+  background-image: url(https://cdnp2.stackassets.com/9bfcf7d57291fdbaedfef0ca269c21a6264fa5d5/store/551a266bb1b658bfca7a48be3ae2739adcc71803ce42255c3b110e4bc779/sale_22291_primary_image.jpg);
+}
+
+.imgbacklat6 {
+  background-image: url(https://cdnp2.stackassets.com/a0695bf765f5209ae845b845a7c316092891ea4a/store/54b7b525a385b2b1962c1fa649e01986728b5e98aa2a64343bbbf30681bd/sale_15929_primary_image.jpg);
+}
+
+.imgbacklat7 {
+  background-image: url(https://cdnp1.stackassets.com/8d42ed94c5d1b5f03edbf017be3c9abc50c08e6a/store/d1f496d0e86783f61df9f78dca238fe1e7bf03690d064b709038ca4d648a/sale_22408_primary_image.jpg);
+}
+
+.imgbacklat8 {
+  background-image: url(https://cdnp0.stackassets.com/0bcaf472e484efc5812ba81caff99e8d92b3e6e9/store/a608033f5bd5c0926a52360990ea5bd8a7241593db592e096d16df200727/product_30218_product_shots4.jpg);
+}
+
+/* ----------------MEDIA: mobile screen width: <768px;-------------------- */
+
+@media screen and (max-width: 767px){
+
+  .news-block-tall {
+    font-size: 1.4rem;
+    display: inline-flex;
+    padding: 1.2rem;
+  }
+
+  .block-text {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .news-block-tall h4 {
+    font-size: 1.4rem;
+    margin-bottom: 1rem;
+    letter-spacing: 0;
+    font-weight: 600;
+  }
+
+  .news-block-tall a {
+    text-decoration: none;
+    color: #000;
+  }
+
+  .news-block-tall h4 {
+    font-size: 1.6rem;
+    margin-bottom: 1rem;
+    letter-spacing: 0;
+  }
+
+  .news-block-tall .news-title a:hover {
+    color: #f42;
+  }
+
+  .news-block-tall ul {
+    list-style: none;
+  }
+
+  .news-block-tall .price-byline a {
+    font-family: 'Nunito Sans', sans-serif;
+    color: #aaa;
+  }
+
+  .news-block-tall .price-byline a:hover {
+    color: #555;
+  }
+
+  .news-block-tall li{
+    float: left;
+    padding-right: 1rem;
+    color: #aaa;
+  }
+
+  .story-image {
+    background-size: cover;
+    max-height: 7.5rem;
+    max-width: 7.5rem;
+    margin-right: 0.8rem;
+  }
+
+  .imgbacklat1 {
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  .imgbacklat2 {
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  .imgbacklat3 {
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  .imgbacklat4 {
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  .imgbacklat5 {
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  .imgbacklat6 {
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  .imgbacklat7 {
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  .imgbacklat8 {
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+ 
+
+}
+
+/* --------------MEDIA: medium screen (tablets) width: 768-1024px;--------- */
+
+@media screen and (min-width: 768px) and (max-width: 1023px){
+
+  .container {
+    margin: -12px;
+  }
+
+  .news-block-tall h4 {
+    font-size: 1.4rem;
+    margin-bottom: 1rem;
+    letter-spacing: 0;
+    font-weight: 600;
+  }
+
+  .news-block-tall {
+    font-size: 1.4rem;
+    display: flex;
+    flex-direction: column;
+    min-width: 23rem;
+    flex-basis: 33.333%;
+    max-width: 33.333%;
+    padding: 1rem;
+    height: auto;
+  }
+
+  .news-block-tall a {
+    text-decoration: none;
+    color: #000;
+  }
+
+  .news-block-tall h4 {
+    font-size: 1.6rem;
+    margin-bottom: 1rem;
+    letter-spacing: 0;
+  }
+
+  .news-block-tall .news-title a:hover {
+    color: #f42;
+  }
+
+  .news-block-tall ul {
+    list-style: none;
+  }
+
+  .news-block-tall .story-byline a {
+    font-family: 'Nunito Sans', sans-serif;
+    color: #aaa;
+  }
+
+  .news-block-tall .story-byline a:hover {
+    color: #555;
+  }
+
+  .news-block-tall li{
+    float: left;
+    padding-right: 1rem;
+    color: #aaa;
+  }
+
+  .story-image {
+    height: 13.5rem;
+    margin-bottom: 1rem;
+    width: 100%;
+  }
+}
+
+/* ------------------MEDIA: desktop or laptop width: >1024px;-------------- */
+
+@media screen and (min-width: 1024px){
+
+  .news-block-tall h4 {
+    font-size: 1.4rem;
+    margin-bottom: 1rem;
+    letter-spacing: 0;
+    font-weight: 600;
+  }
+
+  .news-block-tall {
+    font-size: 1.4rem;
+    display: flex;
+    flex-direction: column;
+    min-width: 23rem;
+    flex-basis: 25%;
+    max-width: 25%;
+    padding: 1.2rem;
+    height: auto;
+  }
+
+  .news-block-tall a {
+    text-decoration: none;
+    color: #000;
+  }
+
+  .news-block-tall h4 {
+    font-size: 1.6rem;
+    margin-bottom: 1rem;
+    letter-spacing: 0;
+  }
+
+  .news-block-tall .news-title a:hover {
+    color: #f42;
+  }
+
+  .news-block-tall ul {
+    list-style: none;
+  }
+
+  .news-block-tall .story-byline a {
+    font-family: 'Nunito Sans', sans-serif;
+    color: #aaa;
+  }
+
+  .news-block-tall .story-byline a:hover {
+    color: #555;
+  }
+
+  .news-block-tall li{
+    float: left;
+    padding-right: 1rem;
+    color: #aaa;
+  }
+
+  .news-price {
+    display: flex;
+    height: auto;
+  }
+
+
+  .news-block-tall .price-byline:first-child a {
+    text-decoration: line-through;
+    font-size: 1.4rem;
+    line-height: 2.3rem;
+    color: #aaa;
+  }
+
+  .news-block-tall .price-byline:last-child span {
+    text-decoration: none;
+    font-size: 1.7rem;
+    line-height: 2rem;
+    color: #555;
+  }
+
+
+  .news-block-tall .story-image {
+    height: 20.115rem;
+    margin-bottom: 1rem;
+    width: 100%;
+  }
+
 }
