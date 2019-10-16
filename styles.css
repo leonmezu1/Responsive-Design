@@ -252,6 +252,15 @@ html {
   padding-left: 10px;
 }
 
+.logo2-dropdown-content a {
+  display: block;
+  color: #fff9;
+  font-size: 13px;
+  text-decoration: none;
+  width: 100%;
+  padding: 8px;
+}
+
 .mainnav li a {
   display: inline-block;
   text-align: center;
@@ -264,6 +273,16 @@ html {
   color: #aaa;
 }
 
+.topnav li a {
+  display: inline-block;
+  text-align: center;
+  padding: 0 7px;
+  text-decoration: none;
+  font-size: 1.6rem;
+  line-height: 32px;
+  color: #fff9;
+}
+
 .title-section a:first-child {
   font-family: "Nunito Sans", sans-serif;
   font-size: 1.3rem;
@@ -274,27 +293,8 @@ html {
   color: #fff;
 }
 
-.logo2-dropdown-content a {
-  display: block;
-  color: #fff9;
-  font-size: 13px;
-  text-decoration: none;
-  width: 100%;
-  padding: 8px;
-}
-
 .logo2-dropdown-content a:hover {
   color: #fff;
-}
-
-.topnav li a {
-  display: inline-block;
-  text-align: center;
-  padding: 0 7px;
-  text-decoration: none;
-  font-size: 1.6rem;
-  line-height: 32px;
-  color: #fff9;
 }
 
 .fundings-container .items-block a {
