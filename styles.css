@@ -219,12 +219,72 @@ html {
   list-style: none;
 }
 
+.mainnav li {
+  float: left;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  list-style: none;
+}
+
 .topnav li:nth-child(n + 7) {
   float: right;
 }
 
 .topnav li:nth-child(7) {
   padding-right: 1rem;
+}
+
+.title-section a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.art-details a {
+  color: inherit;
+}
+
+.dropdown-content a {
+  color: #fff9;
+  text-decoration: none;
+  display: block;
+  width: 100%;
+  text-align: left !important;
+  padding-left: 10px;
+}
+
+.mainnav li a {
+  display: inline-block;
+  text-align: center;
+  padding: 0 20px 0 5px;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 1.6rem;
+  font-weight: 500;
+  line-height: 48px;
+  color: #aaa;
+}
+
+.title-section a:first-child {
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 1.3rem;
+  letter-spacing: 0.02rem;
+}
+
+.art-details a:hover {
+  color: #fff;
+}
+
+.logo2-dropdown-content a {
+  display: block;
+  color: #fff9;
+  font-size: 13px;
+  text-decoration: none;
+  width: 100%;
+  padding: 8px;
+}
+
+.logo2-dropdown-content a:hover {
+  color: #fff;
 }
 
 .topnav li a {
@@ -237,23 +297,9 @@ html {
   color: #fff9;
 }
 
-.title-section a {
+.fundings-container .items-block a {
   text-decoration: none;
-  color: #fff;
-}
-
-.title-section a:first-child {
-  font-family: "Nunito Sans", sans-serif;
-  font-size: 1.3rem;
-  letter-spacing: 0.02rem;
-}
-
-.art-details a {
   color: inherit;
-}
-
-.art-details a:hover {
-  color: #fff;
 }
 
 .topnav li a:hover {
@@ -276,15 +322,6 @@ html {
   width: 220px;
   text-align: left;
   z-index: 999;
-}
-
-.dropdown-content a {
-  color: #fff9;
-  text-decoration: none;
-  display: block;
-  width: 100%;
-  text-align: left !important;
-  padding-left: 10px;
 }
 
 .last-drop {
@@ -349,19 +386,6 @@ html {
   transition: max-height 0.5s;
 }
 
-.logo2-dropdown-content a {
-  display: block;
-  color: #fff9;
-  font-size: 13px;
-  text-decoration: none;
-  width: 100%;
-  padding: 8px;
-}
-
-.logo2-dropdown-content a:hover {
-  color: #fff;
-}
-
 .logo2:hover,
 .logo:hover {
   background-image: url(https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/home-1.gif);
@@ -391,25 +415,6 @@ html {
   list-style-type: none;
   margin: 0;
   padding-left: 15px;
-}
-
-.mainnav li {
-  float: left;
-  flex-direction: row;
-  flex-wrap: nowrap;
-  list-style: none;
-}
-
-.mainnav li a {
-  display: inline-block;
-  text-align: center;
-  padding: 0 20px 0 5px;
-  text-decoration: none;
-  text-transform: uppercase;
-  font-size: 1.6rem;
-  font-weight: 500;
-  line-height: 48px;
-  color: #aaa;
 }
 
 .mainnav li a:hover {
@@ -1035,7 +1040,7 @@ html {
     list-style: none;
   }
 
-    .news-block li {
+  .news-block li {
     float: left;
     padding-right: 1rem;
     color: #aaa;
@@ -1117,11 +1122,6 @@ html {
   display: flex;
   flex-wrap: wrap;
   min-height: 24.2rem;
-}
-
-.fundings-container .items-block a {
-  text-decoration: none;
-  color: inherit;
 }
 
 .items-block {
@@ -1365,7 +1365,7 @@ html {
     list-style: none;
   }
 
-    .news-block-tall .price-byline a:hover {
+  .news-block-tall .price-byline a:hover {
     color: #555;
   }
 
