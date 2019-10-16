@@ -1761,7 +1761,7 @@ b {
   margin: 1.2rem;
 }
 
-.latest-text a {
+.for-grid .latest-text a {
   color: #f42;
   text-decoration: none;
   font-size: 1.2rem;
@@ -1824,13 +1824,13 @@ b {
   color: #f42;
 }
 
-.block-arti li {
+.for-grid .block-arti li {
   border-bottom: 1px solid rgba(0, 0, 0, 0.1);
   padding: 1rem;
   padding-left: 0;
 }
 
-.block-arti li a {
+.for-grid .block-arti li a {
   text-decoration: none;
   color: #000;
   opacity: 0.7;
@@ -1842,11 +1842,10 @@ b {
   opacity: 1;
 }
 
-
- /* -----------------------MEDIA: mobile screen width: <768px;------------- */
+/* -----------------------MEDIA: mobile screen width: <768px;------------- */
 
 @media screen and (max-width: 767px) {
   .block-arti {
     flex: 1 1 50rem;
-   }
- }
+  }
+}
