@@ -1663,3 +1663,193 @@ html {
 b {
   color: red;
 }
+
+/*
+============================================================================
+                              Articles-grid section
+============================================================================
+ */
+
+.for-grid {
+ margin: -12px;
+ display: flex;
+ flex-wrap: wrap;
+}
+
+.block-arti {
+ flex: 1 0 30.7rem;
+ z-index: -1;
+ margin: 12px;
+}
+
+h1{
+ color: #f42;
+ font-size: 2.8rem;
+ font-weight: 700;
+ margin-bottom: 1.6rem;
+}
+
+.popular-article {
+ height: 28rem;
+ display: flex;
+ align-items: flex-end;
+ margin-bottom: 2px;
+}
+
+.imgONE {
+ background: linear-gradient(165deg, rgba(0,0,0,0.4)0 40%, rgba(0,0,0,0.85)80% 100%), url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/10/Untitled-1-1-368x276.jpg) no-repeat center;
+ background-size: cover;
+}
+
+.imgTWO {
+ background: linear-gradient(165deg, rgba(0,0,0,0.4)0 40%, rgba(0,0,0,0.85)80% 100%), url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/10/header-image-pixel-4-368x276.png) no-repeat center;
+ background-size: cover;
+}
+
+.imgTHREE {
+ background: linear-gradient(165deg, rgba(0,0,0,0.4)0 40%, rgba(0,0,0,0.85)80% 100%), url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/10/Stadia-Controller-368x276.jpg) no-repeat center;
+ background-size: cover;
+}
+
+.imgFOUR {
+ background: linear-gradient(165deg, rgba(0,0,0,0.4)0 40%, rgba(0,0,0,0.85)80% 100%), url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/09/Annotation-2019-09-19-121214-368x276.png) no-repeat center;
+ background-size: cover;
+}
+
+.imgFIVE {
+ background: linear-gradient(165deg, rgba(0,0,0,0.4)0 40%, rgba(0,0,0,0.85)80% 100%), url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/10/Untitled-design121-368x276.png) no-repeat center;
+ background-size: cover;
+}
+
+.imgSIX {
+ background: linear-gradient(165deg, rgba(0,0,0,0.4)0 40%, rgba(0,0,0,0.85)80% 100%), url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/10/facebook-libra-in-or-out-368x276.jpg) no-repeat center;
+ background-size: cover;
+}
+
+.imgSEVEN {
+ background: linear-gradient(165deg, rgba(0,0,0,0.4)0 40%, rgba(0,0,0,0.85)80% 100%), url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/09/Google-Assistant-phone-line-368x276.jpg) no-repeat center;
+ background-size: cover;
+}
+
+.imgEIGHT {
+ background: linear-gradient(165deg, rgba(0,0,0,0.4)0 40%, rgba(0,0,0,0.85)80% 100%), url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/10/Annotation-2019-10-15-141141-368x276.png) no-repeat center;
+ background-size: cover;
+}
+
+.popular-article .title-section {
+ margin: 1.5rem;
+}
+
+.popular-article .art-title {
+ font-size: 2.2rem;
+ font-weight: 700;
+ line-height: 1.2;
+}
+
+.popular-article .art-title:hover {
+ border-bottom: 1px solid #939391;
+}
+
+.popular-article .art-details {
+ margin-top: 0.7rem;
+}
+
+.latest-article {
+ display: flex;
+ background-color: rgba(255,68,34,.08);
+}
+
+.latest-text {
+ flex: 1;
+ margin: 1.2rem;
+}
+
+.latest-text a {
+ color: #f42;
+ text-decoration: none;
+ font-size: 1.2rem;
+ line-height: 1.9rem;
+}
+
+.latest-text .latest-title {
+ font-weight: 600;
+ font-family: "Work Sans", "Arial", sans-serif;
+ font-size: 1.5rem;
+}
+
+.latest-image {
+ height: 10rem;
+ width: 10rem;
+}
+
+.img1 {
+ background: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/10/Twitter-Safety-514x270.jpg) no-repeat center;
+ background-size: cover;
+}
+
+.img2 {
+ background: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/10/Pixelbook-Go-1-of-5.jpg) no-repeat center;
+ background-size: cover;
+}
+
+.img3 {
+ background: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/10/instagram-access-hed.png) no-repeat center;
+ background-size: cover;
+}
+
+.img4 {
+ background: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/09/mixingboard.jpg) no-repeat center;
+ background-size: cover;
+}
+
+.img5 {
+ background: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/10/Untitled-design119.png) no-repeat center;
+ background-size: cover;
+}
+
+.img6 {
+ background: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/08/bitcoin_today-header_bitcoin_today.jpg) no-repeat center;
+ background-size: cover;
+}
+
+.img7 {
+ background: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/09/Pam-Angela-The-Office.jpg) no-repeat center;
+ background-size: cover;
+}
+
+.img8 {
+ background: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/10/Fortnite-ch-2.jpg) no-repeat center;
+ background-size: cover;
+}
+
+.block-arti ul {
+ padding-left: 1rem;
+ color: #f42
+}
+
+.block-arti li {
+ border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+ padding: 1rem;
+ padding-left: 0;
+}
+
+.block-arti li a {
+ text-decoration: none;
+ color: #000;
+ opacity: 0.7;
+ font-size: 1.4rem;
+ line-height: 2rem;
+}
+
+.block-arti li a:hover {
+ opacity: 1;
+}
+
+
+ /* -----------------------MEDIA: mobile screen width: <768px;------------- */
+
+ @media screen and (max-width: 767px){
+   .block-arti {
+     flex: 1 1 50rem;
+   }
+ }
