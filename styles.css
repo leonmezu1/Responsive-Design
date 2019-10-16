@@ -173,7 +173,7 @@ select {
 
 /* -----------------------End of CSS RESET---------------------- */
 
-/* General tools*/
+/* General tools */
 
 .box {
   display: block;
@@ -519,10 +519,11 @@ html {
   height: 54.3rem;
   flex-basis: 50%;
   margin-bottom: 0.8rem;
-  background: linear-gradient(
-    165deg,
-  rgba(0, 0, 0, 0.4) 0 40%,
-  rgba(0, 0, 0, 0.85) 80% 100%
+  background:
+    linear-gradient(
+      165deg,
+      rgba(0, 0, 0, 0.4) 0 40%,
+      rgba(0, 0, 0, 0.85) 80% 100%
     ),
     url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/10/Apple-TV-back-to-the-future-header-image-796x417.png")
     no-repeat center;
@@ -531,10 +532,11 @@ html {
 }
 
 .big-article:hover {
-  background: linear-gradient(
-    165deg,
-  rgba(0, 0, 0, 0.3) 0 40%,
-  rgba(0, 0, 0, 0.85) 83% 100%
+  background:
+    linear-gradient(
+      165deg,
+      rgba(0, 0, 0, 0.3) 0 40%,
+      rgba(0, 0, 0, 0.85) 83% 100%
     ),
     url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/10/Apple-TV-back-to-the-future-header-image-796x417.png")
     no-repeat center;
@@ -603,10 +605,11 @@ html {
 }
 
 .first {
-  background: linear-gradient(
-    165deg,
-  rgba(0, 0, 0, 0.4) 0 40%,
-  rgba(0, 0, 0, 0.85) 80% 100%
+  background: 
+    linear-gradient(
+      165deg,
+      rgba(0, 0, 0, 0.4) 0 40%,
+      rgba(0, 0, 0, 0.85) 80% 100%
     ),
     url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/10/200-calories-10-796x417.png")
     no-repeat center;
@@ -614,10 +617,11 @@ html {
 }
 
 .first:hover {
-  background: linear-gradient(
-    165deg,
-  rgba(0, 0, 0, 0.3) 0 40%,
-  rgba(0, 0, 0, 0.85) 83% 100%
+  background: 
+    linear-gradient(
+      165deg,
+      rgba(0, 0, 0, 0.3) 0 40%,
+      rgba(0, 0, 0, 0.85) 83% 100%
     ),
     url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/10/200-calories-10-796x417.png")
     no-repeat center;
@@ -625,10 +629,11 @@ html {
 }
 
 .second {
-  background: linear-gradient(
-    165deg,
-  rgba(0, 0, 0, 0.4) 0 40%,
-  rgba(0, 0, 0, 0.85) 80% 100%
+  background:
+    linear-gradient(
+      165deg,
+      rgba(0, 0, 0, 0.4) 0 40%,
+      rgba(0, 0, 0, 0.85) 80% 100%
     ),
     url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/10/syndication_bb-796x417.jpg")
     no-repeat center;
@@ -636,10 +641,11 @@ html {
 }
 
 .second:hover {
-  background: linear-gradient(
-    165deg,
-  rgba(0, 0, 0, 0.3) 0 40%,
-  rgba(0, 0, 0, 0.85) 83% 100%
+  background:
+    linear-gradient(
+      165deg,
+      rgba(0, 0, 0, 0.3) 0 40%,
+      rgba(0, 0, 0, 0.85) 83% 100%
     ),
     url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/10/syndication_bb-796x417.jpg")
     no-repeat center;
@@ -724,11 +730,12 @@ html {
 @media screen and (min-width: 1024px) {
   .big-article {
     justify-content: space-between;
-    background: linear-gradient(
-      165deg,
-    rgba(255, 68, 34, 0.87) 0% 28%,
-    rgba(255, 68, 34, 0.4) 40% 41%,
-    rgba(0, 0, 0, 0.9) 72% 100%
+    background:
+      linear-gradient(
+        165deg,
+        rgba(255, 68, 34, 0.87) 0% 28%,
+        rgba(255, 68, 34, 0.4) 40% 41%,
+        rgba(0, 0, 0, 0.9) 72% 100%
       ),
       url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/10/Apple-TV-back-to-the-future-header-image-796x417.png")
       no-repeat center;
@@ -736,11 +743,12 @@ html {
   }
 
   .big-article:hover {
-    background: linear-gradient(
-      165deg,
-    rgba(255, 68, 34, 0.87) 0% 28%,
-    rgba(255, 68, 34, 0.32) 40% 41%,
-    rgba(0, 0, 0, 0.9) 72% 100%
+    background:
+    linear-gradient(
+        165deg,
+        rgba(255, 68, 34, 0.87) 0% 28%,
+        rgba(255, 68, 34, 0.32) 40% 41%,
+        rgba(0, 0, 0, 0.9) 72% 100%
       ),
       url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/10/Apple-TV-back-to-the-future-header-image-796x417.png")
       no-repeat center;
@@ -988,7 +996,7 @@ html {
   }
 
   .news-block h4 {
-    font-size: 1.4rem;
+    font-size: 1.6rem;
     margin-bottom: 1rem;
     letter-spacing: 0;
     font-weight: 600;
@@ -1008,12 +1016,6 @@ html {
   .news-block a {
     text-decoration: none;
     color: #000;
-  }
-
-  .news-block h4 {
-    font-size: 1.6rem;
-    margin-bottom: 1rem;
-    letter-spacing: 0;
   }
 
   .news-block .news-title a:hover {
@@ -1339,7 +1341,7 @@ html {
   }
 
   .news-block-tall h4 {
-    font-size: 1.4rem;
+    font-size: 1.6rem;
     margin-bottom: 1rem;
     letter-spacing: 0;
     font-weight: 600;
@@ -1348,12 +1350,6 @@ html {
   .news-block-tall a {
     text-decoration: none;
     color: #000;
-  }
-
-  .news-block-tall h4 {
-    font-size: 1.6rem;
-    margin-bottom: 1rem;
-    letter-spacing: 0;
   }
 
   .news-block-tall .news-title a:hover {
@@ -1439,7 +1435,7 @@ html {
   }
 
   .news-block-tall h4 {
-    font-size: 1.4rem;
+    font-size: 1.6rem;
     margin-bottom: 1rem;
     letter-spacing: 0;
     font-weight: 600;
@@ -1460,12 +1456,6 @@ html {
   .news-block-tall a {
     text-decoration: none;
     color: #000;
-  }
-
-  .news-block-tall h4 {
-    font-size: 1.6rem;
-    margin-bottom: 1rem;
-    letter-spacing: 0;
   }
 
   .news-block-tall .news-title a:hover {
@@ -1513,7 +1503,7 @@ html {
 
 @media screen and (min-width: 1024px) {
   .news-block-tall h4 {
-    font-size: 1.4rem;
+    font-size: 1.6rem;
     margin-bottom: 1rem;
     letter-spacing: 0;
     font-weight: 600;
@@ -1534,12 +1524,6 @@ html {
   .news-block-tall a {
     text-decoration: none;
     color: #000;
-  }
-
-  .news-block-tall h4 {
-    font-size: 1.6rem;
-    margin-bottom: 1rem;
-    letter-spacing: 0;
   }
 
   .news-block-tall .news-title a:hover {
