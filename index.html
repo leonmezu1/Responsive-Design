@@ -1,25 +1,910 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>TNW</title>
+  <link rel="icon" href="images/tnw-logo.png">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Work+Sans:300,400,500,600,700&display=swap"
+    rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Nunito+Sans:400,700&display=swap" rel="stylesheet">
 </head>
+
 <body>
-  <header></header>
-  <nav></nav>
+  <div class="logo" id="logo-token">
+    <img id="logoimg" alt="The Next Web"
+      src="https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/tnw.svg" />
+  </div>
+  <ul class="topnav" id="topnavi">
+    <li><a id="news" href="#">News</a></li>
+    <li class="dropdown">
+      <a href="#" class="buttondrop">Events ▾</a>
+      <div class="dropdown-content">
+        <a href="#">TNW Conference 2019</a>
+        <a class="last-drop" href="#">Hard Fork Decentralized 2018</a>
+      </div>
+    </li>
+    <li class="dropdown">
+      <a href="#" class="buttondrop">Business ▾</a>
+      <div class="dropdown-content" id="second-dropdown">
+        <a href="#">Index</a>
+        <a class="last-drop" href="#">TNW X</a>
+      </div>
+    </li>
+    <li><a href="#">AMAs</a></li>
+    <li><a href="#">Spaces</a></li>
+    <li><a href="#">Terms & Conditions</a></li>
+    <li class="right"><a href="#">Team</a></li>
+    <li class="right"><a href="#">Advertise</a></li>
+    <li class="right"><a href="#">Jobs</a></li>
+    <li class="right"><a href="#">Contact</a></li>
+    <li class="right"><a href="#">About</a></li>
+  </ul>
+  <nav class="nav" id="navid">
+    <div class="logo2" id="logo-token-2">
+      <img id="logo2img" alt="The Next Web"
+        src="https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/tnw.svg" />
+      <div class="logo2-dropdown-content">
+        <a id="drop-news" href="#">News</a>
+        <a href="#">Events</a>
+        <a href="#">Index</a>
+        <a href="#">TQ</a>
+        <a href="#">Deals</a>
+        <a href="#">Answers</a>
+        <a href="#">TNW X</a>
+      </div>
+    </div>
+    <ul class="mainnav" id="mainnavid">
+      <li><a href="#">Latest</a></li>
+      <li><a href="#">Hard Fork</a></li>
+      <li><a href="#">Plugged</a></li>
+      <li><a href="#">Fundamentals</a></li>
+      <li><a href="#">Work 2030</a></li>
+    </ul>
+    <div class="navright">
+      <a class="burger-icon" href="#"><i class="fas fa-bars"></i></a>
+      <a class="search-icon" href="#"><i class="fas fa-search"></i></a>
+    </div>
+  </nav>
+  <div class="announces-nav" id="yellow">
+    <span>In less than three weeks, Hard Work Summit is taking over Amsterdam. Don't miss it &rarr;
+    </span>
+  </div>
+
   <main>
-    <div class="main-grid"></div>
-    <div class="latest-news"></div>
-    <div class="special-events"></div>
-    <div class="latest-fundings"></div>
-    <div class="articles-grid"></div>
-    <div class="latest-deals"></div>
+    <div class="main-grid">
+      <div class="big-article">
+        <div class="top-logo-section">
+          <div class="logo3">
+            <img src="https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/tnw.svg" alt="logo">
+          </div>
+          <div class="date">
+            <p>Monday  — October 7, 2019</p>
+          </div>
+        </div>
+        <div class="title-section">
+          <a href="#">CREATIVE</a><br>
+          <a class="art-title" href="#"> Giphy debuts Arcade, a platform for making and playing ‘microgames’</a>
+          <div class="art-details">
+            <span>by </span><a href="#">Rachel Kaser </a>
+            <i class="fas fa-clock"></i> <span> 2 hous ago </span>
+            <i class="fas fa-share-alt"></i> <span> 4</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="side">
+        <div class="side-article first">
+          <div class="title-section">
+            <a href="#">TECH</a><br>
+            <a class="art-title" href="#"> NASA charged taxpayers $5M for SpaceX safety review after Elon Musk got high</a>
+            <div class="art-details">
+              <span>by </span><a href="#">Tristan Greene </a>
+              <i class="fas fa-clock"></i> <span> 1 hour ago </span>
+              <i class="fas fa-share-alt"></i> <span> 10</span>
+            </div>
+          </div>
+        </div>
+        <div class="side-article second">
+          <div class="title-section">
+            <a href="#">PODIUM</a><br>
+            <a class="art-title" href="#"> Why the insurance tech industry needs to lead the way on privacy</a>
+            <div class="art-details">
+              <span>by </span><a href="#">Peter Colis </a>
+              <i class="fas fa-clock"></i> <span> 2 hour ago </span>
+              <i class="fas fa-share-alt"></i> <span> 10</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="latest-news wrapped">
+      <div class="block-title">
+        <h1>Latest news &rsaquo;</h1>
+      </div>
+      <div class="container">
+        <div class="news-block">
+          <a href="https://thenextweb.com/syndication/2019/10/09/heres-how-you-make-your-google-docs-secure/"
+            class="story-image imgback1 box"></a>
+          <div class="block-text">
+            <h4 class="news-title"> <a
+                href="https://thenextweb.com/syndication/2019/10/09/heres-how-you-make-your-google-docs-secure/"> Here’s
+                how you make your Google Docs secure</a></h4>
+            <div class="news-author">
+              <ul class="story-byline">
+                <li><a href="https://thenextweb.com/author/yessibelloperez/">Ben Dickson</a></li>
+                <li>
+                  <time datetime="2019-09-27T13:34:10+00:00" class="timeago" data-full-date="Sep 27, 2019 - 08:34">3
+                    hours ago</time>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="news-block">
+          <a href="https://thenextweb.com/podium/2019/10/09/why-amazon-is-your-competition-no-matter-what-business-youre-in/"
+            class="story-image imgback2 box"></a>
+          <div class="block-text">
+            <h4 class="news-title"> <a
+                href="https://thenextweb.com/podium/2019/10/09/why-amazon-is-your-competition-no-matter-what-business-youre-in/">
+                Why Amazon is your competition — no matter what business you’re in</a></h4>
+            <div class="news-author">
+              <ul class="story-byline">
+                <li><a href="https://thenextweb.com/author/yessibelloperez/">Calvin Carter</a></li>
+                <li>
+                  <time datetime="2019-09-27T13:34:10+00:00" class="timeago" data-full-date="Sep 27, 2019 - 08:34">4
+                    hours ago</time>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="news-block">
+          <a href="https://thenextweb.com/podium/2019/10/09/why-amazon-is-your-competition-no-matter-what-business-youre-in/"
+            class="story-image imgback3 box"></a>
+          <div class="block-text">
+            <h4 class="news-title"> <a
+                href="https://thenextweb.com/podium/2019/10/09/why-amazon-is-your-competition-no-matter-what-business-youre-in/">
+                Violent stalker finds Japanese artist's home by zooming in on her eye</a></h4>
+            <div class="news-author">
+              <ul class="story-byline">
+                <li><a href="https://thenextweb.com/author/yessibelloperez/">Mix</a></li>
+                <li>
+                  <time datetime="2019-09-27T13:34:10+00:00" class="timeago" data-full-date="Sep 27, 2019 - 08:34">4
+                    hours ago</time>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="news-block">
+          <a href="https://thenextweb.com/plugged/2019/10/09/cheap-get-your-pool-party-started-with-sony-xb10-portable-speaker-for-just-33/"
+            class="story-image imgback4 box"></a>
+          <div class="block-text">
+            <h4 class="news-title"> <a
+                href="https://thenextweb.com/plugged/2019/10/09/cheap-get-your-pool-party-started-with-sony-xb10-portable-speaker-for-just-33/">
+                CHEAP: Get your pool party started with Sony XB10 portable speaker for just $33</a></h4>
+            <div class="news-author">
+              <ul class="story-byline">
+                <li><a href="https://thenextweb.com/author/yessibelloperez/">Ivan Mehta</a></li>
+                <li>
+                  <time datetime="2019-09-27T13:34:10+00:00" class="timeago" data-full-date="Sep 27, 2019 - 08:34">4
+                    hours ago</time>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="news-block">
+          <a href="https://thenextweb.com/hardfork/2019/10/09/central-bank-says-libra-must-operate-like-a-bank-if-its-to-launch-in-uk/"
+            class="story-image imgback5 box"></a>
+          <div class="block-text">
+            <h4 class="news-title"> <a
+                href="https://thenextweb.com/hardfork/2019/10/09/central-bank-says-libra-must-operate-like-a-bank-if-its-to-launch-in-uk/">Central
+                bank says Libra must operate like a bank if it’s to launch in UK</a></h4>
+            <div class="news-author">
+              <ul class="story-byline">
+                <li><a href="https://thenextweb.com/author/yessibelloperez/">Matthew Beedham</a></li>
+                <li>
+                  <time datetime="2019-09-27T13:34:10+00:00" class="timeago" data-full-date="Sep 27, 2019 - 08:34">4
+                    hours ago</time>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="news-block">
+          <a href="https://thenextweb.com/hardfork/2019/10/09/sextortion-blackmail-masturbation-bitcoin-cryptocurrency-litecoin-phishing-scam/"
+            class="story-image imgback6 box"></a>
+          <div class="block-text">
+            <h4 class="news-title"> <a
+                href="https://thenextweb.com/hardfork/2019/10/09/sextortion-blackmail-masturbation-bitcoin-cryptocurrency-litecoin-phishing-scam/">Sextortion
+                scammers pivot from Bitcoin to Litecoin for better blackmailing</a></h4>
+            <div class="news-author">
+              <ul class="story-byline">
+                <li><a href="https://thenextweb.com/author/yessibelloperez/">David Canellis</a></li>
+                <li>
+                  <time datetime="2019-09-27T13:34:10+00:00" class="timeago" data-full-date="Sep 27, 2019 - 08:34">4
+                    hours ago</time>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="news-block">
+          <a href="https://thenextweb.com/offers/2019/10/09/dont-be-that-person-with-1000-gmail-notifications-tame-your-inbox-with-clean-email/"
+            class="story-image imgback7 box"></a>
+          <div class="block-text">
+            <h4 class="news-title"> <a
+                href="https://thenextweb.com/offers/2019/10/09/dont-be-that-person-with-1000-gmail-notifications-tame-your-inbox-with-clean-email/">Don't
+                be that person with 1,000 Gmail notifications, tame your inbox with Clean Email</a></h4>
+            <div class="news-author">
+              <ul class="story-byline">
+                <li><a href="https://thenextweb.com/author/yessibelloperez/">TNW Deals</a></li>
+                <li>
+                  <time datetime="2019-09-27T13:34:10+00:00" class="timeago" data-full-date="Sep 27, 2019 - 08:34">4
+                    hours ago</time>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="news-block">
+          <a href="https://thenextweb.com/tech/2019/10/09/disney-is-using-ai-to-correct-gender-bias-in-its-movies/"
+            class="story-image imgback8 box"></a>
+          <div class="block-text">
+            <h4 class="news-title"> <a
+                href="https://thenextweb.com/tech/2019/10/09/disney-is-using-ai-to-correct-gender-bias-in-its-movies/">Disney
+                is using AI to correct gender bias in its movies</a></h4>
+            <div class="news-author">
+              <ul class="story-byline">
+                <li><a href="https://thenextweb.com/author/yessibelloperez/">Cara Curtis</a></li>
+                <li>
+                  <time datetime="2019-09-27T13:34:10+00:00" class="timeago" data-full-date="Sep 27, 2019 - 08:34">5
+                    hours ago</time>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="special-events wrapped">
+      <div class="block-title">
+        <h1>Microsoft Surface event 2019 &rsaquo;</h1>
+      </div>
+      <div class="container">
+        <div class="news-block">
+          <a href="https://thenextweb.com/plugged/2019/10/03/surface-duo-neo-and-everything-else-at-microsofts-packed-hardware-event/"
+            class="story-image imgbackspc1 box"></a>
+          <div class="block-text">
+            <h4 class="news-title"> <a
+                href="https://thenextweb.com/plugged/2019/10/03/surface-duo-neo-and-everything-else-at-microsofts-packed-hardware-event/">Surface
+                Duo, Neo, and everything else at Microsoft's packed hardware event</a></h4>
+            <div class="news-author">
+              <ul class="story-byline">
+                <li><a href="https://thenextweb.com/author/yessibelloperez/">Napier Lopez</a>
+                </li>
+                <li>
+                  <time datetime="2019-09-27T13:34:10+00:00" class="timeago" data-full-date="Sep 27, 2019 - 08:34">6
+                    days ago</time>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="news-block">
+          <a href="https://thenextweb.com/plugged/2019/10/02/its-real-microsoft-announces-the-surface-duo-a-dual-screen-android-phone/"
+            class="story-image imgbackspc2 box"></a>
+          <div class="block-text">
+            <h4 class="news-title"> <a
+                href="https://thenextweb.com/plugged/2019/10/02/its-real-microsoft-announces-the-surface-duo-a-dual-screen-android-phone/">It's
+                real: Microsoft announces the Surface Duo, a dual-screen Android phone</a></h4>
+            <div class="news-author">
+              <ul class="story-byline">
+                <li><a href="https://thenextweb.com/author/yessibelloperez/">Ivan Mehta</a>
+                </li>
+                <li>
+                  <time datetime="2019-09-27T13:34:10+00:00" class="timeago" data-full-date="Sep 27, 2019 - 08:34">7
+                    days ago</time>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="news-block">
+          <a href="https://thenextweb.com/microsoft/2019/10/02/microsoft-teases-windows-10x-optimized-for-dual-screens/"
+            class="story-image imgbackspc3 box"></a>
+          <div class="block-text">
+            <h4 class="news-title"> <a
+                href="https://thenextweb.com/microsoft/2019/10/02/microsoft-teases-windows-10x-optimized-for-dual-screens/">Microsoft
+                teases Windows 10X, optimized for dual screens</a></h4>
+            <div class="news-author">
+              <ul class="story-byline">
+                <li><a href="https://thenextweb.com/author/yessibelloperez/">Rachel Kaser</a>
+                </li>
+                <li>
+                  <time datetime="2019-09-27T13:34:10+00:00" class="timeago" data-full-date="Sep 27, 2019 - 08:34">7
+                    days ago</time>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="news-block">
+          <a href="https://thenextweb.com/plugged/2019/10/02/microsofts-arm-powered-surface-pro-x-takes-on-the-ipad-pro/"
+            class="story-image imgbackspc4 box"></a>
+          <div class="block-text">
+            <h4 class="news-title"> <a
+                href="https://thenextweb.com/plugged/2019/10/02/microsofts-arm-powered-surface-pro-x-takes-on-the-ipad-pro/">Microsoft's
+                ARM-powered Surface Pro X takes on the iPad Pro</a></h4>
+            <div class="news-author">
+              <ul class="story-byline">
+                <li><a href="https://thenextweb.com/author/yessibelloperez/">Ivan Mehta</a>
+                </li>
+                <li>
+                  <time datetime="2019-09-27T13:34:10+00:00" class="timeago" data-full-date="Sep 27, 2019 - 08:34">7
+                    days ago</time>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="latest-fundings wrapped">
+      <div class="block-title-section">
+        <div class="block-title">
+          <h1>Latest funding rounds on Index.co &rsaquo;</h1>
+        </div>
+        <div class="little-menu">
+          <a class="info" href="#">Add info</a>
+          <span class="separator"> | </span>
+          <a class="info" href="#">Get updates by email</a>
+          <span class="separator"> | </span>
+          <a class="info" href="#">See more</a>
+        </div>
+      </div>
+      <div class="fundings-container">
+        <div class="items-block">
+          <div class="principal-block">
+            <div class="absolute-icon">
+              <img src="https://index.tnwcdn.com/images/6a3eec4f92479fe29263c61583896d94536cdc25.jpg" alt="logo1">
+            </div>
+            <div class="orange-title">
+              <a href="#">EMnity</a>
+            </div>
+            <div class="price-title">
+              <a class="bold-price" href="#">€8M</a>
+              <a href="#">SERIES A</a>
+            </div>
+          </div>
+          <div class="category light-orange">
+            <i class="fas fa-tag"></i>
+            <a href="#">Cloud Computing, +3</a>
+          </div>
+          <div class="finantial light-orange">
+            <a href="#">EMnify Raises €8M in Series A Funding </a> <a class="light" href="#">on FinSMEs</a>
+          </div>
+        </div>
+        <div class="items-block">
+          <div class="principal-block">
+            <div class="absolute-icon">
+              <img src="https://index.tnwcdn.com/images/529feb6ec2b9468c690d7c971865c6eeafd0ea3f.png" alt="logo2">
+            </div>
+            <div class="orange-title">
+              <a href="#">Emplify</a>
+            </div>
+            <div class="price-title">
+              <a class="bold-price" href="#">€15M</a>
+              <a href="#">SERIES B</a>
+            </div>
+          </div>
+          <div class="category light-orange">
+            <i class="fa fa-briefcase"></i>
+            <a href="#">Cultivation Capital, +4</a>
+          </div>
+          <div class="finantial light-orange">
+            <a href="#">Emplify Raises €15M in Series B Funding </a> <a class="light" href="#">on FinSMEs</a>
+          </div>
+        </div>
+        <div class="items-block">
+          <div class="principal-block">
+            <div class="absolute-icon">
+              <img src="https://index.tnwcdn.com/images/72ce8e9ebabc192c3b17ef1516a34cbcc96ea60a.jpg" alt="logo3">
+            </div>
+            <div class="orange-title">
+              <a href="#">Riskcast Solutions</a>
+            </div>
+            <div class="price-title">
+              <a class="bold-price" href="#">€600k</a>
+              <a href="#">SEED FUND</a>
+            </div>
+          </div>
+          <div class="category light-orange">
+            <i class="fas fa-tag"></i>
+            <a href="#">Project Management</a><br>
+            <i class="fa fa-briefcase"></i>
+            <a href="#">Newark Venture Partners</a>
+          </div>
+          <div class="finantial light-orange">
+            <a href="#">Riskcast Solutions Raises $600K in Pre-Seed Funding</a> <a class="light" href="#">on FinSMEs</a>
+          </div>
+        </div>
+        <div class="items-block last-none">
+          <div class="principal-block">
+            <div class="absolute-icon">
+              <img src="https://index.tnwcdn.com/images/8920049322d1e3f9438e2fd3361389db1ece66fd.jpg" alt="logo4">
+            </div>
+            <div class="orange-title">
+              <a href="#">Vertical Future</a>
+            </div>
+            <div class="price-title">
+              <a class="bold-price" href="#">€4M</a>
+              <a href="#">SEED FUND</a>
+            </div>
+          </div>
+          <div class="category light-orange">
+            <i class="fas fa-tag"></i>
+            <a href="#">Food</a>
+          </div>
+          <div class="finantial light-orange">
+            <a href="#">Vertical Future completes €4m seed funding</a> <a class="light" href="#">on UKTN (UK Tech
+              News)</a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+    <div class="articles-grid wrapped">
+      <div class="for-grid">
+        <article class="block-arti">
+          <h2>Apps  &rsaquo;</h2>
+          <div class="popular-article imgONE">
+            <div class="title-section">
+              <a href="#">MOST POPULAR</a><br>
+              <a class = "art-title" href="#">Zen is an elegant browser-based text editor for minimalists</a>
+              <div class="art-details">
+                <a href="#">Mix </a>
+                <span> &middot; 1 hour ago </span>
+              </div>
+            </div>
+          </div>
+          <div class="latest-article">
+            <div class="latest-text">
+              <a href="#">LATEST</a><br>
+              <a class = "latest-title" href="#">Twitter details what world leaders would have to de to be banned</a>
+            </div>
+            <div class="latest-image img1">
+            </div>
+          </div>
+          <ul>
+            <li><a href="#">Zen is an elegant browser-based text editor for minimalists</a></li>
+            <li><a href="#">WhatsApp for Android has mysteriously disappeared from Google Play [Update: It's back] </a></li>
+            <li><a href="#">Uber is making it easier to bring pets along for the ride </a></li>
+            <li><a href="#">Google is rolling out dark mode for Gmail and Maps </a></li>
+            <li><a href="#">Instagram may finally add DMs to desktop with Messenger-like interface</a></li>
+          </ul>
+        </article>
+        <article class="block-arti">
+          <h2>Gear &rsaquo;</h2>
+          <div class="popular-article imgTWO">
+            <div class="title-section">
+              <a href="#">MOST POPULAR</a><br>
+              <a class = "art-title" href="#">Google announces the dual-camera, notchless, & face-unlocking Pixel 4 and Pixel 4 XL</a>
+              <div class="art-details">
+                <a href="#">Callum Booth </a>
+                <span> &middot; 5 hours ago </span>
+              </div>
+            </div>
+          </div>
+          <div class="latest-article">
+            <div class="latest-text">
+              <a href="#">LATEST</a><br>
+              <a class = "latest-title" href="#">Hands-on: Google's Pixelbook Go feels way facy for a $649 laptop</a>
+            </div>
+            <div class="latest-image img2">
+            </div>
+          </div>
+          <ul>
+            <li><a href="#">Pixel 4 hands-on: I almost wish I didn't like it this much</a></li>
+            <li><a href="#">Every new device at Google's big Pixel 4 event</a></li>
+            <li><a href="#">Google announces the dual-camera, notchless, & face-unlocking Pixel 4 and Pixel 4 XL</a></li>
+            <li><a href="#">Google's new Pixelbook Go is a $649 laptop with 13.3-inch touchscreen</a></li>
+            <li><a href="#">Google's new Pixel Buds cost 4179, have adapttive sound, and arrive next... spring</a></li>
+          </ul>
+        </article>
+        <article class="block-arti">
+          <h2>Tech &rsaquo;</h2>
+          <div class="popular-article imgTHREE">
+            <div class="title-section">
+              <a href="#">MOST POPULAR</a><br>
+              <a class = "art-title" href="#">Google Stadia set to launch on Nov 19 -- but not for everyone</a>
+              <div class="art-details">
+                <a href="#">Rachel Kaser </a>
+                <span> &middot; 4 hours ago </span>
+              </div>
+            </div>
+          </div>
+          <div class="latest-article">
+            <div class="latest-text">
+              <a href="#">LATEST</a><br>
+              <a class = "latest-title" href="#">Instagram now lets you control which apps can access your account data</a>
+            </div>
+            <div class="latest-image img3">
+            </div>
+          </div>
+          <ul>
+            <li><a href="#">Disgusting DNA app falsely claims it can tell how gay you are </a></li>
+            <li><a href="#">TikTok appears to have walked back its 'shadow ban' on Trump posts</a></li>
+            <li><a href="#">NASA engineer says Viking missions discovered life on Mars in the 1970s </a></li>
+            <li><a href="#">Google Stadia set to launch on Nov 19 -- but not for everyone</a></li>
+            <li><a href="#">China’s social credit system isn’t about scoring citizens — it’s a massive API</a></li>
+          </ul>
+        </article>
+        <article class="block-arti">
+          <h2>Creative &rsaquo;</h2>
+          <div class="popular-article imgFOUR">
+            <div class="title-section">
+              <a href="#">MOST POPULAR</a><br>
+              <a class = "art-title" href="#">Microsoft's new font for devs is very aesthetically pleasing (and free)</a>
+              <div class="art-details">
+                <a href="#">Mix </a>
+                <span> &middot; 26 days ago </span>
+              </div>
+            </div>
+          </div>
+          <div class="latest-article">
+            <div class="latest-text">
+              <a href="#">LATEST</a><br>
+              <a class = "latest-title" href="#">How to build a production and recording studio that fits in a backpack</a>
+            </div>
+            <div class="latest-image img4">
+            </div>
+          </div>
+          <ul>
+            <li><a href="#">Watch: Disney’s new anti-vibration tech maps CGI movements onto actual robots</a></li>
+            <li><a href="#">Chinese vertical dramas made for phone viewing show the future of mobile video</a></li>
+            <li><a href="#">Sorry, but you can’t copyright a meme</a></li>
+            <li><a href="#">A peek at legendary architect John Storyk's design process</a></li>
+            <li><a href="#">Watch: Sony made a God of War documentary as good as the game</a></li>
+          </ul>
+        </article>
+        <article class="block-arti">
+          <h2>Podium &rsaquo;</h2>
+          <div class="popular-article imgFIVE">
+            <div class="title-section">
+              <a href="#">MOST POPULAR</a><br>
+              <a class = "art-title" href="#">This is how CIOs should approach ethics and privacy</a>
+              <div class="art-details">
+                <a href="#">Hilary Wandall </a>
+                <span> &middot; 12 hours ago </span>
+              </div>
+            </div>
+          </div>
+          <div class="latest-article">
+            <div class="latest-text">
+              <a href="#">LATEST</a><br>
+              <a class = "latest-title" href="#">The monolith myth: Why all-in-one tech suites aren’t the solution</a>
+            </div>
+            <div class="latest-image img5">
+            </div>
+          </div>
+          <ul>
+            <li><a href="#">Microsoft brought book burning into the digital age — and you should be worried </a></li>
+            <li><a href="#">The best way to get driverless cars on the road is to make them less conservative </a></li>
+            <li><a href="#">5 lessons I learned from Gary Vaynerchuk at a tech conference in Armenia </a></li>
+            <li><a href="#">Want to succeed as an entrepreneur? Stop job hopping and find your ‘modern MBA’</a></li>
+            <li><a href="#">14 ways to clarify project scope with your programming team </a></li>
+          </ul>
+        </article>
+        <article class="block-arti">
+          <h2>Insights &rsaquo;</h2>
+          <div class="popular-article imgSIX">
+            <div class="title-section">
+              <a href="#">MOST POPULAR</a><br>
+              <a class = "art-title" href="#">An overview of Facebook’s 'cryptocurrency' supporters — who’s in and who’s out</a>
+              <div class="art-details">
+                <a href="#">Yessi Bello Perez </a>
+                <span> &middot; 6 hours ago </span>
+              </div>
+            </div>
+          </div>
+          <div class="latest-article">
+            <div class="latest-text">
+              <a href="#">LATEST</a><br>
+              <a class = "latest-title" href="#">Satoshi Nakaboto: ‘Satoshi added to The Oxford English Dictionary’</a>
+            </div>
+            <div class="latest-image img6">
+            </div>
+          </div>
+          <ul>
+            <li><a href="#">An overview of Facebook’s 'cryptocurrency' supporters — who’s in and who’s out </a></li>
+            <li><a href="#">Video: Explore Seoul’s cool startup kitchens — plus a robot restaurant! </a></li>
+            <li><a href="#">Bitcoin's cumulative transaction fees surpass $1B milestone </a></li>
+            <li><a href="#">Facebook's ‘cryptocurrency’ Libra unveils official backers, but its future is still uncertain </a></li>
+            <li><a href="#">Satoshi Nakaboto: ‘CNBC anchor describes Bitcoin as antique furniture, Libra as Restoration Hardware’ </a></li>
+          </ul>
+        </article>
+        <article class="block-arti">
+          <h2>Launch &rsaquo;</h2>
+          <div class="popular-article imgSEVEN">
+            <div class="title-section">
+              <a href="#">MOST POPULAR</a><br>
+              <a class = "art-title" href="#">Google Assistant gets its own phone number in India</a>
+              <div class="art-details">
+                <a href="#">Ivan Mehta </a>
+                <span> &middot; 27 days ago </span>
+              </div>
+            </div>
+          </div>
+          <div class="latest-article">
+            <div class="latest-text">
+              <a href="#">LATEST</a><br>
+              <a class = "latest-title" href="#">Pam and Angela from The Office are re-watching the show for their new podcast</a>
+            </div>
+            <div class="latest-image img7">
+            </div>
+          </div>
+          <ul>
+            <li><a href="#">Bethesda wants you to test its game streaming tech with DOOM on iOS this year </a></li>
+            <li><a href="#">Mozilla rolls out new automated crypto-jacking filtering in Firefox </a></li>
+            <li><a href="#">Google announces Stadia, its cross-platform game streaming service </a></li>
+            <li><a href="#">Binance will let you buy Bitcoin with cash from 1,300 stores in Australia </a></li>
+            <li><a href="#">YouTube Music launches in India to battle it out with Spotify et al </a></li>
+          </ul>
+        </article>
+        <article class="block-arti">
+          <h2>Distract &rsaquo;</h2>
+          <div class="popular-article imgEIGHT">
+            <div class="title-section">
+              <a href="#">MOST POPULAR</a><br>
+              <a class = "art-title" href="#">Bored programmer recreates a rotary dial in the browser (and it's gloriously flawed)</a>
+              <div class="art-details">
+                <a href="#">Mix </a>
+                <span> &middot; 10 hours ago </span>
+              </div>
+            </div>
+          </div>
+          <div class="latest-article">
+            <div class="latest-text">
+              <a href="#">LATEST</a><br>
+              <a class = "latest-title" href="#">Fortnite's back as a Big Bang refreshes the whole game</a>
+            </div>
+            <div class="latest-image img8">
+            </div>
+          </div>
+          <ul>
+            <li><a href="#">Bored programmer recreates a rotary dial in the browser (and it's gloriously flawed) </a></li>
+            <li><a href="#">Disney reveals its Disney+ launch titles in the mother of all Twitter threads </a></li>
+            <li><a href="#">With shit-all else to do, Fortnite goes on vacation (Update: It's back) </a></li>
+            <li><a href="#">Just putting it out there: Please Netflix, don’t kill TV </a></li>
+            <li><a href="#">Real estate firm offers free paranormal investigation for prospective homeowners </a></li>
+          </ul>
+        </article>
+        <article class="block-arti">
+          <h2>.</h2>
+        </article>
+      </div>
+    </div>
+    <div class="latest-deals wrapped">
+      <div class="block-title">
+        <h1>Latest deals &rsaquo;</h1>
+      </div>
+      <div class="container">
+        <div class="news-block-tall">
+          <a href="https://deals.thenextweb.com/sales/the-complete-python-certification-bootcamp-bundle/?utm_source=thenextweb.com&utm_medium=dealfeed&utm_campaign=/sales/the-complete-python-certification-bootcamp-bundle"
+            class="story-image imgbacklat1  box">
+          </a>
+          <div class="story-deal">
+            <h3>93% OFF</h3>
+          </div>
+          <div class="block-text">
+            <h4 class="news-title"> <a
+                href="https://deals.thenextweb.com/sales/the-complete-python-certification-bootcamp-bundle/?utm_source=thenextweb.com&utm_medium=dealfeed&utm_campaign=/sales/the-complete-python-certification-bootcamp-bundle">
+                The Complete Python Certification Bootcamp Bundle</a></h4>
+            <div class="news-price">
+              <ul class="price-byline">
+                <li><a
+                    href="https://deals.thenextweb.com/sales/the-complete-python-certification-bootcamp-bundle/?utm_source=thenextweb.com&utm_medium=dealfeed&utm_campaign=/sales/the-complete-python-certification-bootcamp-bundle">$2030</a>
+                </li>
+                <li>
+                  <span>$34.99</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="news-block-tall">
+          <a href="https://deals.thenextweb.com/sales/the-ultimate-adobe-cc-training-bundle/?utm_source=thenextweb.com&utm_medium=dealfeed&utm_campaign=/sales/the-ultimate-adobe-cc-training-bundle"
+            class="story-image imgbacklat2 box"></a>
+          <div class="story-deal">
+            <h3>93% OFF</h3>
+          </div>
+          <div class="block-text">
+            <h4 class="news-title"> <a
+              href="https://deals.thenextweb.com/sales/the-ultimate-adobe-cc-training-bundle/?utm_source=thenextweb.com&utm_medium=dealfeed&utm_campaign=/sales/the-ultimate-adobe-cc-training-bundle">
+              The Ultimate Adobe CC Training Bundle</a></h4>
+              <div class="news-price">
+              <ul class="price-byline">
+                <li><a
+                    href="https://deals.thenextweb.com/sales/the-complete-python-certification-bootcamp-bundle/?utm_source=thenextweb.com&utm_medium=dealfeed&utm_campaign=/sales/the-complete-python-certification-bootcamp-bundle">$2030</a>
+                </li>
+                <li>
+                  <span>$34.99</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="news-block-tall">
+          <a href="https://thenextweb.com/hardfork/2019/09/27/binance-says-it-buddied-with-uk-police-to-catch-crypto-criminal-who-stole-51m/"
+            class="story-image imgbacklat3 box"></a>
+          <div class="story-deal">
+            <h3>93% OFF</h3>
+          </div>
+          <div class="block-text">
+            <h4 class="news-title"> <a
+                href="https://thenextweb.com/hardfork/2019/09/27/binance-says-it-buddied-with-uk-police-to-catch-crypto-criminal-who-stole-51m/">The
+                Complete Computer Programmer Super Bundle</a></h4>
+                <div class="news-price">
+                  <ul class="price-byline">
+                    <li><a
+                        href="https://deals.thenextweb.com/sales/the-complete-python-certification-bootcamp-bundle/?utm_source=thenextweb.com&utm_medium=dealfeed&utm_campaign=/sales/the-complete-python-certification-bootcamp-bundle">$2030</a>
+                    </li>
+                    <li>
+                      <span>$34.99</span>
+                    </li>
+                  </ul>
+                </div>
+          </div>
+        </div>
+        <div class="news-block-tall">
+          <a href="https://thenextweb.com/hardfork/2019/09/27/binance-says-it-buddied-with-uk-police-to-catch-crypto-criminal-who-stole-51m/"
+            class="story-image imgbacklat4 box"></a>
+          <div class="story-deal">
+            <h3>93% OFF</h3>
+          </div>
+          <div class="block-text">
+            <h4 class="news-title"> <a
+                href="https://thenextweb.com/hardfork/2019/09/27/binance-says-it-buddied-with-uk-police-to-catch-crypto-criminal-who-stole-51m/">Complete
+                Microsoft Azure Certification Prep Bundle 2019</a></h4>
+                <div class="news-price">
+                  <ul class="price-byline">
+                    <li><a
+                        href="https://deals.thenextweb.com/sales/the-complete-python-certification-bootcamp-bundle/?utm_source=thenextweb.com&utm_medium=dealfeed&utm_campaign=/sales/the-complete-python-certification-bootcamp-bundle">$2030</a>
+                    </li>
+                    <li>
+                      <span>$34.99</span>
+                    </li>
+                  </ul>
+                </div>
+          </div>
+        </div>
+        <div class="news-block-tall">
+          <a href="https://thenextweb.com/hardfork/2019/09/27/binance-says-it-buddied-with-uk-police-to-catch-crypto-criminal-who-stole-51m/"
+            class="story-image imgbacklat5 box"></a>
+          <div class="story-deal">
+            <h3>93% OFF</h3>
+          </div>
+          <div class="block-text">
+            <h4 class="news-title"> <a
+                href="https://thenextweb.com/hardfork/2019/09/27/binance-says-it-buddied-with-uk-police-to-catch-crypto-criminal-who-stole-51m/">The
+                Complete LinkedIn Marketing & Sales Bundle</a></h4>
+                <div class="news-price">
+                  <ul class="price-byline">
+                    <li><a
+                        href="https://deals.thenextweb.com/sales/the-complete-python-certification-bootcamp-bundle/?utm_source=thenextweb.com&utm_medium=dealfeed&utm_campaign=/sales/the-complete-python-certification-bootcamp-bundle">$2030</a>
+                    </li>
+                    <li>
+                      <span>$34.99</span>
+                    </li>
+                  </ul>
+                </div>
+          </div>
+        </div>
+        <div class="news-block-tall">
+          <a href="https://thenextweb.com/hardfork/2019/09/27/binance-says-it-buddied-with-uk-police-to-catch-crypto-criminal-who-stole-51m/"
+            class="story-image imgbacklat6 box"></a>
+          <div class="story-deal">
+            <h3>93% OFF</h3>
+          </div>
+          <div class="block-text">
+            <h4 class="news-title"> <a
+                href="https://thenextweb.com/hardfork/2019/09/27/binance-says-it-buddied-with-uk-police-to-catch-crypto-criminal-who-stole-51m/">SERPstash
+                Premium: Lifetime Subscription</a></h4>
+                <div class="news-price">
+                  <ul class="price-byline">
+                    <li><a
+                        href="https://deals.thenextweb.com/sales/the-complete-python-certification-bootcamp-bundle/?utm_source=thenextweb.com&utm_medium=dealfeed&utm_campaign=/sales/the-complete-python-certification-bootcamp-bundle">$2030</a>
+                    </li>
+                    <li>
+                      <span>$34.99</span>
+                    </li>
+                  </ul>
+                </div>
+          </div>
+        </div>
+        <div class="news-block-tall">
+          <a href="https://thenextweb.com/hardfork/2019/09/27/binance-says-it-buddied-with-uk-police-to-catch-crypto-criminal-who-stole-51m/"
+            class="story-image imgbacklat7 box"></a>
+          <div class="story-deal">
+            <h3>93% OFF</h3>
+          </div>
+          <div class="block-text">
+            <h4 class="news-title"> <a
+                href="https://thenextweb.com/hardfork/2019/09/27/binance-says-it-buddied-with-uk-police-to-catch-crypto-criminal-who-stole-51m/">The
+                Advanced Digital Marketing Mastery Bundle</a></h4>
+                <div class="news-price">
+                  <ul class="price-byline">
+                    <li><a
+                        href="https://deals.thenextweb.com/sales/the-complete-python-certification-bootcamp-bundle/?utm_source=thenextweb.com&utm_medium=dealfeed&utm_campaign=/sales/the-complete-python-certification-bootcamp-bundle">$2030</a>
+                    </li>
+                    <li>
+                      <span>$34.99</span>
+                    </li>
+                  </ul>
+                </div>
+          </div>
+        </div>
+        <div class="news-block-tall">
+          <a href="https://thenextweb.com/hardfork/2019/09/27/binance-says-it-buddied-with-uk-police-to-catch-crypto-criminal-who-stole-51m/"
+            class="story-image imgbacklat8 box"></a>
+          <div class="story-deal">
+            <h3>93% OFF</h3>
+          </div>
+          <div class="block-text">
+            <h4 class="news-title"> <a
+                href="https://thenextweb.com/hardfork/2019/09/27/binance-says-it-buddied-with-uk-police-to-catch-crypto-criminal-who-stole-51m/">12min
+                Book Summary Library: Lifetime Premium Subscription</a></h4>
+                <div class="news-price">
+                  <ul class="price-byline">
+                    <li><a
+                        href="https://deals.thenextweb.com/sales/the-complete-python-certification-bootcamp-bundle/?utm_source=thenextweb.com&utm_medium=dealfeed&utm_campaign=/sales/the-complete-python-certification-bootcamp-bundle">$2030</a>
+                    </li>
+                    <li>
+                      <span>$34.99</span>
+                    </li>
+                  </ul>
+                </div>
+          </div>
+        </div>
+      </div>
+    </div>
   </main>
   <footer>
-    <div class="social"></div>
-    <div class="final"></div>
+    <div class="social">
+      <div class="icons">
+        <a href="https://www.facebook.com/thenextweb"><i class="fab fa-facebook-square"></i></a>
+        <i class="fab fa-twitter"></i>
+        <i class="fab fa-youtube" id="youtube"></i>
+        <i class="fab fa-instagram" id="instagram"></i>
+        <i class="fab fa-pinterest-p"></i>
+        <i class="fas fa-wifi" id="wifi"></i>
+        <i class="fas fa-envelope" id="envelope"></i>
+      </div>
+
+      <div class="social-text-wraper">
+        <span>EVENTS</span>
+        <span>ABOUT</span>
+        <span>TEAM</span>
+        <span>ADVERTISE</span>
+        <span>JOBS</span>
+        <span>CONTACT</span>
+      </div>
+    </div>
+    <div class="final">
+      <span><img src="https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/tnw.svg" alt="finalsvglogo"> © 2006–2019 The Next Web
+        B.V.</span>
+      <span>Made with <b>♥</b> in Amsterdam</span>
+      <span>Powered by <img src="https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/stackpath.svg" alt="finalThemeLogo"> </span>
+    </div>
   </footer>
+  <script src="script.js"></script>
 </body>
+
 </html>
