@@ -4,7 +4,9 @@ Responsive-Design
 
 Objective: Analize and make a clone of the-next-web page, using responsive design identifying the breakpoints for devices transition and responsive behavior.
 
-Project preview: /* ADD LINK HERE*/   
+Project preview: https://rawcdn.githack.com/leonmezu1/Responsive-Design/016da4a73d40825c48cc55d8b51b53f355382ae8/index.html
+
+
 
 The original page: https://thenextweb.com/
 
